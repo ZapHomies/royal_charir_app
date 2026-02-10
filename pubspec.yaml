@@ -1,0 +1,95 @@
+name: royal_charir_app
+description: Aplikasi Manajemen Gudang Royal Charir (Windows Desktop)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.6.1
+  hooks_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Database (SQLite for Windows)
+  sqflite_common_ffi: ^2.3.4
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+  # HTTP & Networking (API Integration)
+  dio: ^5.7.0
+  retrofit: ^4.4.1
+  json_annotation: ^4.9.0
+  connectivity_plus: ^6.1.0
+  pretty_dio_logger: ^1.4.0
+
+  # UI & Design
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  window_manager: ^0.4.3
+  gap: ^3.0.1
+  intl: ^0.20.2
+  icons_plus: ^5.0.0
+  animations: ^2.0.11
+  
+  # Modern UI Enhancements
+  lottie: ^3.1.2                     # High-quality JSON animations
+  animated_text_kit: ^4.2.2          # Animated text effects
+  flutter_staggered_animations: ^1.1.1  # Staggered list animations
+  blur: ^4.0.0                       # Blur effects
+  velocity_x: ^4.2.1                 # Utility extensions
+  flutter_spinkit: ^5.2.1            # Loading spinners
+  responsive_framework: ^1.5.1       # Responsive design
+  
+  # Printing & PDF
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  
+  # File & Image Handling
+  file_picker: ^8.1.6
+  image_picker: ^1.1.2
+  image: ^4.3.0
+  
+  # Export & Import
+  excel: ^4.0.6
+  csv: ^6.0.0
+  archive: ^3.6.1
+  
+  # Utils
+  uuid: ^4.5.1
+  logger: ^2.4.0
+  shared_preferences: ^2.3.3
+  
+  # Charts & Visualization
+  fl_chart: ^0.70.1
+  
+  # Date & Time
+  jiffy: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.8.0
+  retrofit_generator: ^9.1.4
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  windows:
+    generate: true
+    image_path: "assets/images/logo.png"
+    icon_size: 256
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+

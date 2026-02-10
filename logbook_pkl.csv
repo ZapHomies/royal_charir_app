@@ -1,0 +1,27 @@
+No;Tanggal;Kegiatan;Hasil;Keterangan
+1;04-11-2025;Orientasi dan perkenalan dengan lingkungan kerja Gudang Royal Charir;Memahami struktur organisasi dan alur kerja gudang;
+2;06-11-2025;Observasi proses bisnis pencatatan stok barang dan penjualan;Mengetahui permasalahan pencatatan manual;
+3;08-11-2025;Wawancara dengan admin gudang mengenai kebutuhan sistem;Terkumpul daftar kebutuhan fungsional sistem;
+4;12-11-2025;Analisis kebutuhan dan menyusun proposal sistem informasi;Proposal disetujui pembimbing lapangan;
+5;15-11-2025;Perancangan DFD Level 0 dan Level 1;Diagram konteks dan DFD Level 1 selesai;
+6;19-11-2025;Perancangan DFD Level 2 dan ERD;DFD Level 2 dan ERD dengan 14 entitas selesai;
+7;22-11-2025;Perancangan struktur database dan wireframe UI;PDM dan sketsa UI selesai;
+8;26-11-2025;Setup proyek Flutter dan konfigurasi untuk Windows;Proyek royal_charir_app berhasil dibuat;
+9;29-11-2025;Implementasi DatabaseHelper dan pembuatan tabel SQLite;Koneksi database berhasil dan tabel terbuat;
+10;03-12-2025;Implementasi tema aplikasi dan warna (light/dark mode);File app_theme.dart dan app_colors.dart selesai;
+11;06-12-2025;Implementasi modul Produk: Model Repository dan Provider;CRUD produk berfungsi dengan baik;
+12;10-12-2025;Pembuatan halaman daftar produk dan form tambah/edit;ProductListPage dan ProductFormPage selesai;
+13;13-12-2025;Implementasi modul Pelanggan dan fitur harga grosir khusus;CRUD pelanggan dan harga khusus berfungsi;
+14;17-12-2025;Implementasi modul Pesanan/Order dan OrderItem;Model dan Repository Order selesai;
+15;20-12-2025;Pembuatan halaman Kasir (POS) dengan mode Eceran dan Grosir;AdminCheckoutPage selesai dengan dua mode;
+16;24-12-2025;Implementasi keranjang belanja dan fitur checkout;Fitur checkout berfungsi dengan kalkulasi benar;
+17;27-12-2025;Implementasi fitur cetak struk dan daftar pesanan;Struk dapat dicetak dan OrderListPage selesai;
+18;03-01-2026;Implementasi modul Karyawan dan halaman manajemen karyawan;CRUD karyawan dan EmployeeManagementPage selesai;
+19;07-01-2026;Implementasi modul Absensi dengan fitur check-in/check-out;Fitur absensi harian berfungsi;
+20;10-01-2026;Implementasi modul Slip Gaji dan perhitungan gaji harian;Generate slip gaji berdasarkan absensi selesai;
+21;14-01-2026;Implementasi modul Pengeluaran dan halaman keuangan;CRUD pengeluaran dan FinancePage selesai;
+22;17-01-2026;Implementasi modul Laporan dengan grafik penjualan;ReportsPage dengan visualisasi selesai;
+23;20-01-2026;Implementasi fitur Backup dan Restore Database;Fitur backup/restore berfungsi dengan baik;
+24;21-01-2026;Pembuatan Dashboard dengan statistik dan navigasi sidebar;Dashboard responsif selesai;
+25;22-01-2026;Pengujian menyeluruh seluruh modul aplikasi;Semua 23 test case berhasil;
+26;23-01-2026;Penyusunan laporan PKL dan dokumentasi;Laporan PKL dan dokumentasi selesai;
